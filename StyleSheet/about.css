@@ -1,0 +1,56 @@
+#about{
+    display: flex;
+}
+.contrainer{
+    background-color: white;
+    padding: 20px 20px;
+    margin: 30px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: -2px 4px 7px 9px rgba(0, 0, 0, 0.1);
+}
+.Mypic{
+    width: 250px;
+    border-radius: 15px;
+}
+.Mypic:hover{
+    box-shadow: 2px 2px 10px 9px rgba(0, 0, 0, 0.1);
+    animation: customAni 2s cubic-bezier(0.5, 1, 0.89, 1) 0s 1 normal none;
+}
+
+@keyframes customAni {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 0;
+    }
+  
+    10% {
+      transform: rotate(2deg);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+  
+    80% {
+      transform: rotate(-2deg);
+    }
+  
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+  
+  
